@@ -1,0 +1,12 @@
+div p{
+    color: darkred;
+}
+
+h2 + p{
+    color:aquamarine;
+
+}
+h2 ~ p{
+    color: blueviolet;
+}
+

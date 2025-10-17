@@ -1,0 +1,24 @@
+li:nth-child(odd) {
+  color: #000000; 
+}
+
+
+li:nth-child(even) {
+  color: #bbbbbb;
+}
+
+li::before{
+    content: "---->";
+    color: blue;
+}
+
+li.hover{
+    background-color: #bbbbbb;
+}
+
+input[type="checkbox"]:checked + label::after{
+    content:"\\/";
+    color: blue; 
+
+}
+
